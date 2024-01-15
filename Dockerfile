@@ -1,4 +1,4 @@
-FROM baseimage:jammy-1.0.1
+FROM python:3.9-slim-buster
 WORKDIR /
 RUN apt update && apt -y install curl wget
 # Copies the trainer code to the docker image.
