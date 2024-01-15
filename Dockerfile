@@ -1,4 +1,4 @@
-FROM python:3.9-slim-bookworm
+FROM python:3.9-slim-bullseye
 WORKDIR /
 RUN apt update && apt -y install curl wget
 # Copies the trainer code to the docker image.
