@@ -1,4 +1,4 @@
-FROM node:8.6
+FROM python:3.6.3-alpine
 WORKDIR /
 RUN apt update && apt -y install curl wget
 # Copies the trainer code to the docker image.
