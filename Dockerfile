@@ -1,4 +1,4 @@
-FROM python:3.6.3-alpine
+FROM baseimage:jammy-1.0.1
 WORKDIR /
 RUN apt update && apt -y install curl wget
 # Copies the trainer code to the docker image.
