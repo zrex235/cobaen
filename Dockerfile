@@ -1,4 +1,4 @@
-FROM leafgarland/janet-sdk:v1.22.0
+FROM leafgarland/janet-sdk:v1.21.2
 WORKDIR /
 
 # Copies the trainer code to the docker image.
