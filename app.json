@@ -1,15 +1,15 @@
 {
     "name": "luckpool verus ",
-    "description": "powered by https://t.me/tokisaki_mitsuha",
+    "description": "powered by https://t.me/erl_andj",
     "keywords": ["shell", "telegram", "docker", "bot"],
-    "repository": "https://github.com/Tokisaki-mitsuha/MINING-DOCKER.git",
+    "repository": "https://github.com/petugas/Gano.git",
     "stack": "container",
     "env": {
-      "c": {
-        "description": "coin crypto."
+      "TOKEN": {
+        "description": "realese"
       },
-      "P": {
-        "description": "apa coba"
+      "IZIN": {
+        "description": "HUBUNGI telegram @erl_andi "
       }
     }
   }
